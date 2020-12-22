@@ -1,0 +1,48 @@
+{
+    "name": "zelda_rotw",
+    "title": "The Legend of Zelda: Reclaim of the Wild",
+    "description": "The Legend of Zelda: Reclaim of the Wild é um sistema desenvolvido por Mike 'Elemental Knight' e Milly, e adaptado para o FoundryVTT por MugiGust para você poder se aventurar em uma campanha tematizada da clássica franquia Zelda, tentando cobrir todos os jogos possíveis.",
+    "version": "0.0.1",
+    "templateVersion": 2,
+    "author": "MugiGust",
+    "scripts": [
+    ],
+    "esmodules": [
+    ],
+    "styles": [
+    ],
+    "packs": [
+      {
+        "name": "monsters",
+        "label": "Monsters",
+        "system": "mysystem",
+        "module": "mysystem",
+        "path": "packs/monsters.db",
+        "entity": "Actor"
+      },
+      {
+        "name": "items",
+        "label": "Items",
+        "system": "mysystem",
+        "module": "mysystem",
+        "path": "packs/items.db",
+        "entity": "Item"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "2d6",
+    "gridDistance": 10,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://github.com/mugigust/zelda_rotw",
+    "manifest": "https://github.com/mugigust/zelda_rotw/system.json",
+    "download": "https://github.com/mugigust/zelda_rotw/archive/main.zip"
+  }
